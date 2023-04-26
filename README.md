@@ -10,6 +10,7 @@ pip install zstandard # onefile时压缩文件
 #### 打包
 
 **windows下打包命令**
+
 `python -m nuitka --standalone --show-memory --show-progress --nofollow-imports --plugin-enable=numpy --follow-import-to=apps --output-dir=out --windows-icon-from-ico=./favicon.ico app.py
 `
 
